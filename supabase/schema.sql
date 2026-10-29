@@ -1,4 +1,4 @@
--- Micro-Batch Lab Journal: shared formula sessions.
+-- PerfuMate: shared formula sessions.
 -- Run this once in your Supabase project (SQL editor), then enable anonymous sign-ins
 -- (Authentication > Sign In / Providers > Allow anonymous sign-ins).
 --

@@ -1,7 +1,7 @@
 import type { Dict } from './index';
 
 export const ja: Dict = {
-  'app.name': 'マイクロバッチ実験ノート',
+  'app.name': 'PerfuMate',
   'nav.projects': 'プロジェクト',
   'nav.formulas': '処方',
   'nav.bench': '作業台',
@@ -758,7 +758,7 @@ export const ja: Dict = {
   'tour.back': "戻る",
   'tour.next': "次へ",
   'tour.done': "作業を始める",
-  'tour.welcome_title': "ラボジャーナルへようこそ",
+  'tour.welcome_title': "PerfuMateへようこそ",
   'tour.welcome_body': "主な画面をひと通り紹介します（約1分）。今はスキップして、あとで上部の「チュートリアル」ボタンから開き直すこともできます。",
   'tour.projects_title': "プロジェクト",
   'tour.projects_body': "プロジェクトは、ひとつの香りのアイデアとそのすべてのリビジョンをまとめたものです。まず作成してください。短いコードが各リビジョンとバッチの名前に使われます。",

@@ -1,6 +1,6 @@
-# Micro-Batch Lab Journal
+# PerfuMate
 
-A local-first laboratory workspace for independent perfumers, built to the *Micro-Batch Fragrance Lab Journal* brief (28 October 2026). It keeps **intended formulas**, **actual batches** and **physical samples** as separate records, and links them: a label opens the exact batch, its frozen formula revision, stock strengths, lots and smelling history.
+A local-first laboratory workspace for independent perfumers. It keeps **intended formulas**, **actual batches** and **physical samples** as separate records, and links them: a label opens the exact batch, its frozen formula revision, stock strengths, lots and smelling history.
 
 Research notes that shaped the design are in [docs/RESEARCH.md](docs/RESEARCH.md).
 
@@ -32,10 +32,10 @@ npm run dev        # http://localhost:5178
 npm test           # 50 tests: acceptance cases, persistence, reservations, corrections, i18n, imports, new features
 npm run build
 npm run desktop    # run the Windows desktop app from source
-npm run dist:win   # build release/MicroBatchLabJournal-1.0.0-portable.exe and -setup.exe
+npm run dist:win   # build release/PerfuMate-1.0.0-portable.exe and -setup.exe
 ```
 
-**Desktop app.** `release/MicroBatchLabJournal-1.0.0-portable.exe` runs without installing; `-setup.exe` installs it with a Start-menu entry. Both are unsigned, so Windows SmartScreen will warn on first run (More info → Run anyway). Data is stored in the app's own profile (`%APPDATA%\Micro-Batch Lab Journal`), separate from any browser.
+**Desktop app.** `release/PerfuMate-1.0.0-portable.exe` runs without installing; `-setup.exe` installs it with a Start-menu entry. Both are unsigned, so Windows SmartScreen will warn on first run (More info → Run anyway). Data is stored in the app's own profile (`%APPDATA%\Micro-Batch Lab Journal`), separate from any browser.
 
 Stack: React 18 + TypeScript, `decimal.js` for all arithmetic, IndexedDB (`idb`) for storage, `fflate` for reading and writing `.xlsx`, `qrcode` for labels. Business logic lives in `src/domain` and `src/import` with no UI code; screens are in `src/ui`.
 

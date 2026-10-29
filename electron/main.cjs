@@ -1,4 +1,4 @@
-// Desktop shell for Micro-Batch Lab Journal. The app itself is the same web build; this file
+// Desktop shell for PerfuMate. The app itself is the same web build; this file
 // serves it from a fixed local origin (so the IndexedDB database stays put), and provides
 // folder sync, balance (serial port) access and native save dialogs.
 const { app, BrowserWindow, dialog, ipcMain, Menu, net, protocol, session, shell } = require('electron');
@@ -13,6 +13,14 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { standard: true, secure: true, supportFetchAPI: true, corsEnabled: true, stream: true } },
 ]);
 
+// Earlier builds were named Micro-Batch Lab Journal. Keep using that data folder when it exists,
+// so renaming the app does not leave a user's journal behind.
+{
+  const legacy = ['micro-batch-lab-journal', 'Micro-Batch Lab Journal'].map((n) => path.join(app.getPath('appData'), n))
+    .find((p) => require('node:fs').existsSync(path.join(p, 'IndexedDB')));
+  if (legacy) app.setPath('userData', legacy);
+}
+
 if (!app.requestSingleInstanceLock()) app.quit();
 
 let win = null;
@@ -23,7 +31,7 @@ function createWindow() {
     height: 900,
     minWidth: 900,
     minHeight: 600,
-    title: 'Micro-Batch Lab Journal',
+    title: 'PerfuMate',
     backgroundColor: '#f4f4f2',
     autoHideMenuBar: true,
     webPreferences: {

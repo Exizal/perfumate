@@ -1,7 +1,7 @@
 import type { Dict } from './index';
 
 export const zh: Dict = {
-  'app.name': '微批次实验室日志',
+  'app.name': 'PerfuMate',
   'nav.projects': '项目',
   'nav.formulas': '配方',
   'nav.bench': '工作台',
@@ -758,7 +758,7 @@ export const zh: Dict = {
   'tour.back': "上一步",
   'tour.next': "下一步",
   'tour.done': "开始使用",
-  'tour.welcome_title': "欢迎使用您的实验日志",
+  'tour.welcome_title': "欢迎使用 PerfuMate",
   'tour.welcome_body': "快速浏览主要界面，约需一分钟。可以先跳过，之后随时通过顶部的“教程”按钮再次打开。",
   'tour.projects_title': "项目",
   'tour.projects_body': "一个项目包含一个香水创意及其所有修订版。请先创建项目；其简短代码会用于每个修订版和批次的名称。",

@@ -1,5 +1,5 @@
 export const en = {
-  'app.name': 'Micro-Batch Lab Journal',
+  'app.name': 'PerfuMate',
   'nav.projects': 'Projects',
   'nav.formulas': 'Formulas',
   'nav.bench': 'Bench',
@@ -756,7 +756,7 @@ export const en = {
   'tour.back': "Back",
   'tour.next': "Next",
   'tour.done': "Start working",
-  'tour.welcome_title': "Welcome to your lab journal",
+  'tour.welcome_title': "Welcome to PerfuMate",
   'tour.welcome_body': "A quick tour of the main screens, about a minute. You can skip it now and open it again from the Tutorial button at the top.",
   'tour.projects_title': "Projects",
   'tour.projects_body': "A project holds one fragrance idea and all its revisions. Create one first; its short code is used in every revision and batch name.",

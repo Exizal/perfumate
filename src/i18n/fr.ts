@@ -1,7 +1,7 @@
 import type { Dict } from './index';
 
 export const fr: Dict = {
-  'app.name': 'Journal de laboratoire micro-essais',
+  'app.name': 'PerfuMate',
   'nav.projects': 'Projets',
   'nav.formulas': 'Formules',
   'nav.bench': 'Paillasse',
@@ -758,7 +758,7 @@ export const fr: Dict = {
   'tour.back': "Retour",
   'tour.next': "Suivant",
   'tour.done': "Commencer à travailler",
-  'tour.welcome_title': "Bienvenue dans votre journal de laboratoire",
+  'tour.welcome_title': "Bienvenue dans PerfuMate",
   'tour.welcome_body': "Un tour rapide des principaux écrans, d’environ une minute. Vous pouvez le passer maintenant et le rouvrir depuis le bouton Tutoriel en haut.",
   'tour.projects_title': "Projets",
   'tour.projects_body': "Un projet regroupe une idée de parfum et toutes ses révisions. Créez-en un d’abord ; son code court est repris dans le nom de chaque révision et de chaque lot.",

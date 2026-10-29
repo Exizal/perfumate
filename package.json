@@ -1,5 +1,5 @@
 {
-  "name": "micro-batch-lab-journal",
+  "name": "perfumate",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -32,12 +32,12 @@
     "vite": "^5.4.10",
     "vitest": "^2.1.4"
   },
-  "description": "Micro-Batch Lab Journal: a local-first lab workspace for independent perfumers.",
+  "description": "PerfuMate: a local-first lab workspace for independent perfumers.",
   "author": "PerfuMate",
   "main": "electron/main.cjs",
   "build": {
-    "appId": "co.twiceapps.labjournal",
-    "productName": "Micro-Batch Lab Journal",
+    "appId": "co.twiceapps.perfumate",
+    "productName": "PerfuMate",
     "directories": {
       "output": "release"
     },
@@ -54,10 +54,10 @@
       "icon": "build/icon.png"
     },
     "portable": {
-      "artifactName": "MicroBatchLabJournal-${version}-portable.exe"
+      "artifactName": "PerfuMate-${version}-portable.exe"
     },
     "nsis": {
-      "artifactName": "MicroBatchLabJournal-${version}-setup.exe",
+      "artifactName": "PerfuMate-${version}-setup.exe",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
     }

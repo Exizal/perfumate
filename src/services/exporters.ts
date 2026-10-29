@@ -206,5 +206,5 @@ export function exportWorkbook(state: DataState): void {
     seen.add(n);
     s.name = n;
   }
-  download(`lab-journal-${new Date().toISOString().slice(0, 10)}.xlsx`, writeXlsx(sheets), 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+  download(`perfumate-${new Date().toISOString().slice(0, 10)}.xlsx`, writeXlsx(sheets), 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 }

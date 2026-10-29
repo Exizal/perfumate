@@ -1,7 +1,7 @@
 import type { Dict } from './index';
 
 export const es: Dict = {
-  'app.name': 'Cuaderno de laboratorio de microlotes',
+  'app.name': 'PerfuMate',
   'nav.projects': 'Proyectos',
   'nav.formulas': 'Fórmulas',
   'nav.bench': 'Banco',
@@ -758,7 +758,7 @@ export const es: Dict = {
   'tour.back': "Atrás",
   'tour.next': "Siguiente",
   'tour.done': "Empezar a trabajar",
-  'tour.welcome_title': "Bienvenido a su diario de laboratorio",
+  'tour.welcome_title': "Bienvenido a PerfuMate",
   'tour.welcome_body': "Un recorrido rápido por las pantallas principales, de aproximadamente un minuto. Puede omitirlo ahora y volver a abrirlo desde el botón Tutorial de la parte superior.",
   'tour.projects_title': "Proyectos",
   'tour.projects_body': "Un proyecto contiene una idea de fragancia y todas sus revisiones. Cree uno primero; su código corto se usa en el nombre de cada revisión y lote.",

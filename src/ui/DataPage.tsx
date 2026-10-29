@@ -24,7 +24,7 @@ export function DataPage() {
   const doBackup = async () => {
     const at = new Date().toISOString();
     const b = buildBackup(state, at);
-    download(`lab-journal-backup-${at.slice(0, 19).replace(/[:T]/g, '-')}.json`, JSON.stringify(b, null, 1), 'application/json');
+    download(`perfumate-backup-${at.slice(0, 19).replace(/[:T]/g, '-')}.json`, JSON.stringify(b, null, 1), 'application/json');
     // Record the backup time only after the file has been produced.
     await run((st) => ({ settings: { ...st.settings, lastBackupAt: at } }));
     toast(t('data.backupDone'));

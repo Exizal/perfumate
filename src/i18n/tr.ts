@@ -1,7 +1,7 @@
 import type { Dict } from './index';
 
 export const tr: Dict = {
-  'app.name': 'Mikro Parti Laboratuvar Defteri',
+  'app.name': 'PerfuMate',
   'nav.projects': 'Projeler',
   'nav.formulas': 'Formüller',
   'nav.bench': 'Tezgâh',
@@ -758,7 +758,7 @@ export const tr: Dict = {
   'tour.back': "Geri",
   'tour.next': "İleri",
   'tour.done': "Çalışmaya başla",
-  'tour.welcome_title': "Laboratuvar günlüğünüze hoş geldiniz",
+  'tour.welcome_title': "PerfuMate'e hoş geldiniz",
   'tour.welcome_body': "Ana ekranlara kısa bir tur, yaklaşık bir dakika sürer. Şimdi atlayabilir, daha sonra üstteki Eğitim düğmesinden yeniden açabilirsiniz.",
   'tour.projects_title': "Projeler",
   'tour.projects_body': "Bir proje, tek bir koku fikrini ve tüm revizyonlarını barındırır. Önce bir proje oluşturun; kısa kodu her revizyon ve parti adında kullanılır.",
