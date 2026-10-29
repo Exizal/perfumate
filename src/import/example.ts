@@ -1,0 +1,19 @@
+/** Demonstration spreadsheet (fictional). Uses decimal commas and semicolons, a title block and a total row. */
+export const EXAMPLE_SHEET = [
+  'Amber Tea - trial sheet (DEMO DATA);;;;;',
+  'Perfumer: demonstration;;;;;',
+  ';;;;;',
+  'Material;Dilution %;Solvent;Parts;Cost/kg (EUR);Notes',
+  'Bergamot oil FCF;100;;120;95;',
+  'Hedione;100;;220;60;raised from 200',
+  'Iso E Super;100;;200;40;',
+  'Ambroxan;10;DPG;200;;',
+  'Black tea absolute;10;EtOH;10;;',
+  'Labdanum resinoid;50;DPG;80;;',
+  'Vanillin;10;DPG;50;2,5;',
+  'Ethyl maltol;1;DPG;2;;',
+  'Animalis (base);;;0,2;;strength unknown',
+  'Benzyl salicylate;100;;117,8;12;',
+  'Total;;;1000;;',
+  '',
+].join('\n');
